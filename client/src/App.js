@@ -9,7 +9,8 @@ class App extends Component {
   }
 
   componentDidMount(){
-    axios.get('https://picsum.photos/list')
+    axios.get('http://18.191.188.52:3000/images/')
+    // axios.get('https://picsum.photos/list')
     .then(res => {
       var tempData = [];
       for(var i = 25; i < 75; i++){
