@@ -1,0 +1,22 @@
+{
+  "name": "im08-2018-09-codesplash-deploy",
+  "version": "1.0.0",
+  "description": "* server 작업 시, 아래의 cloud mlab mongoDB data를 사용하시면 됩니다. (read only) `mongodb://student:JNytCZanZaDEcTxMZyM2wsaF@ds161312.mlab.com:61312/codesplash` 위 data에는 `images` 라는 collection에 `db.json` 데이터가 들어 있습니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyslg/im08-2018-09-codesplash-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyslg/im08-2018-09-codesplash-deploy/issues"
+  },
+  "homepage": "https://github.com/lyslg/im08-2018-09-codesplash-deploy#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
